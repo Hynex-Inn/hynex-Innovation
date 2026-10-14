@@ -519,19 +519,23 @@ and a structured approach.
                             <div class="form-group">
                                 <label for="name">Full Name</label>
                                 <input
-                                    type="text"
-                                    id="name"
-                                    placeholder="Your name"
-                                >
+    type="text"
+    id="name"
+    name="name"
+    placeholder="Your name"
+    required
+>
                             </div>
 
                             <div class="form-group">
                                 <label for="email">Email Address</label>
                                 <input
-                                    type="email"
-                                    id="email"
-                                    placeholder="you@example.com"
-                                >
+    type="email"
+    id="email"
+    name="email"
+    placeholder="you@example.com"
+    required
+>
                             </div>
 
                         </div>
@@ -543,7 +547,7 @@ and a structured approach.
                                 What can we help with?
                             </label>
 
-                            <select id="service">
+                            <select id="service" name="service" required>
 
                                 <option value="" selected disabled>Select a service</option>
 <option value="Career Guidance & Development">Career Guidance & Development</option>
@@ -567,8 +571,10 @@ and a structured approach.
 
                             <textarea
     id="message"
+    name="message"
     rows="5"
     placeholder="Tell us about your career goals or the support you need."
+    required
 ></textarea>
 
                         </div>
