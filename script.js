@@ -85,37 +85,33 @@ revealElements.forEach((element) => {
 const contactForm = document.querySelector(".contact-form");
 
 if (contactForm) {
-
     contactForm.addEventListener("submit", (event) => {
-
-        event.preventDefault();
-
         const name = document.getElementById("name").value.trim();
         const email = document.getElementById("email").value.trim();
         const service = document.getElementById("service").value;
         const message = document.getElementById("message").value.trim();
 
-
         if (!name || !email || !service || !message) {
-
+            event.preventDefault();
             alert("Please complete all fields before submitting.");
-
             return;
-
         }
 
+        const serviceField = document.createElement("input");
+        serviceField.type = "hidden";
+        serviceField.name = "Service";
+        serviceField.value = service;
+        contactForm.appendChild(serviceField);
 
-        alert(
-            `Thank you, ${name}. Your inquiry has been received.`
-        );
+        const nameField = document.getElementById("name");
+        const emailField = document.getElementById("email");
+        const messageField = document.getElementById("message");
 
-
-        contactForm.reset();
-
+        nameField.name = "name";
+        emailField.name = "email";
+        messageField.name = "message";
     });
-
 }
-
 
 /* =========================================================
    NAVBAR SCROLL EFFECT
