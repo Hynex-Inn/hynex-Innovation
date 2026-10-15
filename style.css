@@ -3071,3 +3071,30 @@ html {
         box-sizing: border-box !important;
     }
 }
+
+
+
+
+.footer-social {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  color: #0A66C2;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.footer-social a:hover {
+  opacity: 0.8;
+  transform: translateY(-2px);
+}
+
+.footer-social svg {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
