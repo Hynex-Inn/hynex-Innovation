@@ -3075,26 +3075,30 @@ html {
 
 
 
+
 .footer-social {
   display: inline-flex;
+  flex-direction: row;
   align-items: center;
-  gap: 12px;
+  justify-content: flex-end;
+  gap: 8px;
 }
 
 .footer-social a {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   color: #0A66C2;
-  transition: opacity 0.2s ease, transform 0.2s ease;
-}
-
-.footer-social a:hover {
-  opacity: 0.8;
-  transform: translateY(-2px);
+  line-height: 1;
 }
 
 .footer-social svg {
   display: block;
   width: 24px;
   height: 24px;
+}
+
+.footer-social > span {
+  display: inline;
+  white-space: nowrap;
 }
