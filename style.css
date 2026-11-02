@@ -435,6 +435,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
 /* Move complete hero orbit illustration to the right */
 @media (min-width: 992px) {
     .hero-visual {
-        transform: translateX(45px);
+        transform: translateX(70px);
     }
 }
