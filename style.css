@@ -723,3 +723,11 @@ h2 span { color: var(--blue-bright); }
   }
   .reveal { opacity: 1; transform: none; }
 }
+
+
+
+/* Navbar logo visibility on dark background */
+.navbar .logo img {
+    filter: brightness(0) invert(1);
+    opacity: 1;
+}
