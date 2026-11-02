@@ -351,3 +351,79 @@ button, a { -webkit-tap-highlight-color: transparent; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
+
+
+
+
+
+/* =================================
+   HYNEX INNOVATION - WHITE FOOTER
+================================= */
+
+.footer {
+    background: #ffffff !important;
+    color: #111827 !important;
+    border-top: 1px solid #e5eaf2;
+    padding: 55px 0 20px;
+}
+
+.footer-container {
+    background: #ffffff !important;
+}
+
+.footer-brand {
+    color: #111827 !important;
+}
+
+.footer-brand .logo {
+    background: transparent !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+}
+
+.footer-brand .logo img {
+    filter: none !important;
+    opacity: 1 !important;
+    max-width: 160px;
+    height: auto;
+}
+
+.footer-brand p {
+    color: #64748b !important;
+}
+
+.footer a {
+    color: #334155 !important;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #2675f5 !important;
+}
+
+.footer-social a {
+    color: #2675f5 !important;
+}
+
+.footer-social a:hover {
+    color: #0b55d9 !important;
+}
+
+.footer-bottom {
+    border-top: 1px solid #e5eaf2 !important;
+    color: #64748b !important;
+}
+
+.footer-bottom p,
+.footer-bottom span {
+    color: #64748b !important;
+}
+
+.footer-bottom a {
+    color: #334155 !important;
+}
+
+.footer-bottom a:hover {
+    color: #2675f5 !important;
+}
+
