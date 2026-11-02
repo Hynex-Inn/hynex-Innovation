@@ -427,3 +427,14 @@ button, a { -webkit-tap-highlight-color: transparent; }
     color: #2675f5 !important;
 }
 
+
+
+
+
+
+/* Move complete hero orbit illustration to the right */
+@media (min-width: 992px) {
+    .hero-visual {
+        transform: translateX(45px);
+    }
+}
